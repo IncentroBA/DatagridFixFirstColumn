@@ -1,0 +1,63 @@
+.table-fixedcolumn table tbody tr td {
+  margin-top: 1px;
+}
+
+.table-fixedcolumn table th .mx-datagrid-head-caption {
+  display: inherit;
+  position: sticky;
+}
+
+
+.table-fixedcolumn .mx-grid-content {
+  overflow: auto;
+  padding-bottom: 2px;
+}
+
+.table-fixedcolumn .fixed-cell {
+  background-color: var(--background-primary);
+  border-right: solid 1px var(--border-color);
+  position: fixed;
+  transition: none;
+  z-index: 1;
+}
+
+.table-fixedcolumn .fixed-cell::after {
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.16);
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.table-fixedcolumn .fixed-cell.scroll::after {
+  opacity: 1;
+}
+
+
+/* Custom scrollbar */
+.table-fixedcolumn.custom-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(black, .4) transparent;
+}
+
+.table-fixedcolumn.custom-scroll ::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+
+.table-fixedcolumn.custom-scroll ::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.table-fixedcolumn.custom-scroll ::-webkit-scrollbar-thumb {
+  background-color: rgba(black, .4);
+  border-radius: 50px;
+  border: 0;
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="incentro.datagridfixedcolumn.DatagridFixedColumn" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Datagrid Fixed Column</name>
+    <description>Scrollable datagrid with first column fixed</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="className" type="string" required="false">
+                <caption>classname</caption>
+                <description>Listen to this class to apply the widget to.</description>
+            </property>
+            <property key="customScroll" type="boolean" defaultValue="true">
+                <caption>Custom scrollbar</caption>
+                <description>Display a custom scrollbar.</description>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
