@@ -1,7 +1,7 @@
 {
   "name": "datagridfixedcolumn",
   "widgetName": "DatagridFixedColumn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Scrollable datagrid with first column fixed",
   "copyright": "Incentro 2021",
   "author": "Rob Duits",

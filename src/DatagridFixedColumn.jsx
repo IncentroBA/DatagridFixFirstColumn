@@ -67,4 +67,6 @@ export default function DatagridFixedColumn(props) {
         applyCustomScroll();
         stickyCaptions();
     }
+
+    return null;
 }

@@ -5,11 +5,11 @@
         xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
     <name>Datagrid Fixed Column</name>
     <description>Scrollable datagrid with first column fixed</description>
-    <icon/>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAAEEfUpiAAAACXBIWXMAAAsSAAALEgHS3X78AAABIElEQVRYhe1W0Q2CMBB9GAfADfziGzfQDXSK+yVhEP29LdhAR3AENsANMJA2qUehFEKCpC9poHft9Xr3ei0kIgB1I2PmVrWTIzoCuw09f7yNSi1d9doUfT+39gAOAFIApWtwL2rhh90HZtZBrM1/rMTCWbVlIHOl3Wm/RBRpN0yYcjfFgLfof6xBGEAqVLGvgZV7sBHUoh19ttVhYp7nSJJEdy8AnmLOj2xMFgYxZKCwpBCqOj1MgYyB19ENMdhEDCLLnl9zvfovRKpGyropYzb9dnfAerFJCGo1KIjoxsyxotTQBpoafiKikpnvADJTOZWGV/VNHYtDRVgX2UwqZ58DT1hvNFkKbG2x103gQOBA4MAqOFA58l/5PhcDRgPAF5grtZafUfSaAAAAAElFTkSuQmCC</icon>
     <properties>
         <propertyGroup caption="General">
-            <property key="className" type="string" required="false">
-                <caption>classname</caption>
+            <property key="className" type="string" required="true">
+                <caption>Class name</caption>
                 <description>Listen to this class to apply the widget to.</description>
             </property>
             <property key="customScroll" type="boolean" defaultValue="true">
