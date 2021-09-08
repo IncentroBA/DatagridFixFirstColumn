@@ -17,6 +17,8 @@ View more data than fits your screen while the first column stays fixed as you s
 ### Limitations
 Force the datagrid to become larger than your screen width by giving most columns a fixed width in pixels. This can best be a value that matches the amount of content inside for most situations. If the datagrid is kept in width units in percentages, not much will happen. Fixing the first column doesn't do anything without a scroll.
 
+The widget is not compatible with the new Datagrid 2 widgets!
+
 
 ## Dependencies
 Vertical scrolling is based on a Mendix default layout and placement inside the 'region-content' (which results in the used class: 'mx-scrollcontainer-center').
