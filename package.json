@@ -1,32 +1,32 @@
 {
-  "name": "datagridfixedcolumn",
-  "widgetName": "DatagridFixedColumn",
-  "version": "1.0.1",
-  "description": "Scrollable datagrid with first column fixed",
-  "copyright": "Incentro 2021",
-  "author": "Rob Duits",
-  "engines": {
-    "node": ">=12"
-  },
-  "config": {
-    "projectPath": "../..//",
-    "mendixHost": "http://localhost:8080",
-    "developmentPort": "3000"
-  },
-  "packagePath": "incentro",
-  "scripts": {
-    "start": "pluggable-widgets-tools start:web",
-    "build": "pluggable-widgets-tools build:web",
-    "lint": "pluggable-widgets-tools lint",
-    "lint:fix": "pluggable-widgets-tools lint:fix",
-    "prerelease": "npm run lint",
-    "release": "pluggable-widgets-tools release:web"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "@mendix/pluggable-widgets-tools": "^9.0.0"
-  },
-  "dependencies": {
-    "classnames": "^2.2.6"
-  }
+    "name": "datagridfixedcolumn",
+    "widgetName": "DatagridFixedColumn",
+    "version": "1.0.2",
+    "description": "Scrollable datagrid with first column fixed",
+    "copyright": "Incentro 2021",
+    "author": "Rob Duits",
+    "engines": {
+        "node": ">=12"
+    },
+    "config": {
+        "projectPath": "../..//",
+        "mendixHost": "http://localhost:8080",
+        "developmentPort": "3000"
+    },
+    "packagePath": "incentro",
+    "scripts": {
+        "start": "pluggable-widgets-tools start:web",
+        "build": "pluggable-widgets-tools build:web",
+        "lint": "pluggable-widgets-tools lint",
+        "lint:fix": "pluggable-widgets-tools lint:fix",
+        "prerelease": "npm run lint",
+        "release": "pluggable-widgets-tools release:web"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@mendix/pluggable-widgets-tools": "^9.0.0"
+    },
+    "dependencies": {
+        "classnames": "^2.2.6"
+    }
 }
