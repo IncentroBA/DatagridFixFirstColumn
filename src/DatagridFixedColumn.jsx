@@ -12,6 +12,8 @@ export default function DatagridFixedColumn(props) {
             const scrollElement = table.querySelector(".mx-grid-content");
             const scrollLayout = document.querySelector(".mx-scrollcontainer-center .mx-scrollcontainer-wrapper");
 
+            table?.classList.add("table-fixedcolumn");
+
             if (headerFirstColumn) {
                 const headerFirstColumnRect = headerFirstColumn.getBoundingClientRect();
                 headerFirstColumn.style.width = `${headerFirstColumnRect.width}px`;
